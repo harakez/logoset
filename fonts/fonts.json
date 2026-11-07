@@ -1,0 +1,435 @@
+[
+ {
+  "id": "inter",
+  "name": "Inter",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "manrope",
+  "name": "Manrope",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "montserrat",
+  "name": "Montserrat",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "golos-text",
+  "name": "Golos Text",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "onest",
+  "name": "Onest",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "rubik",
+  "name": "Rubik",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "nunito",
+  "name": "Nunito",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "raleway",
+  "name": "Raleway",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "jost",
+  "name": "Jost",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "open-sans",
+  "name": "Open Sans",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "roboto",
+  "name": "Roboto",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "pt-sans",
+  "name": "PT Sans",
+  "cat": "sans",
+  "weights": [
+   400,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "fira-sans",
+  "name": "Fira Sans",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "exo-2",
+  "name": "Exo 2",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "comfortaa",
+  "name": "Comfortaa",
+  "cat": "sans",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "unbounded",
+  "name": "Unbounded",
+  "cat": "display",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "oswald",
+  "name": "Oswald",
+  "cat": "display",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "russo-one",
+  "name": "Russo One",
+  "cat": "display",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "montserrat-alternates",
+  "name": "Montserrat Alternates",
+  "cat": "display",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "tenor-sans",
+  "name": "Tenor Sans",
+  "cat": "display",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "playfair-display",
+  "name": "Playfair Display",
+  "cat": "serif",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "lora",
+  "name": "Lora",
+  "cat": "serif",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "pt-serif",
+  "name": "PT Serif",
+  "cat": "serif",
+  "weights": [
+   400,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "cormorant-garamond",
+  "name": "Cormorant Garamond",
+  "cat": "serif",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "merriweather",
+  "name": "Merriweather",
+  "cat": "serif",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "alegreya",
+  "name": "Alegreya",
+  "cat": "serif",
+  "weights": [
+   400,
+   600,
+   800
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "prata",
+  "name": "Prata",
+  "cat": "serif",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "yeseva-one",
+  "name": "Yeseva One",
+  "cat": "serif",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "philosopher",
+  "name": "Philosopher",
+  "cat": "serif",
+  "weights": [
+   400,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "caveat",
+  "name": "Caveat",
+  "cat": "script",
+  "weights": [
+   400,
+   600,
+   700
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "pacifico",
+  "name": "Pacifico",
+  "cat": "script",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ },
+ {
+  "id": "marck-script",
+  "name": "Marck Script",
+  "cat": "script",
+  "weights": [
+   400
+  ],
+  "subsets": [
+   "latin",
+   "cyrillic"
+  ]
+ }
+]

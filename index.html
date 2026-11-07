@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-root="./">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Logoset: free logo pack maker for avatars, favicons and social media</title>
+<meta name="description" content="Turn one SVG logo into every file you need: profile pictures for Instagram and Telegram, a favicon, YouTube and LinkedIn banners, white and black versions. Free, no sign-up, runs in your browser.">
+<link rel="canonical" href="https://logoset.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://logoset.vercel.app/">
+<link rel="alternate" hreflang="ru" href="https://logoset.vercel.app/ru/">
+<link rel="alternate" hreflang="x-default" href="https://logoset.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Logoset">
+<meta property="og:title" content="Logoset: every format of your logo from one SVG">
+<meta property="og:description" content="Avatars, favicon, social media covers and logo versions for light and dark backgrounds. Free and private.">
+<meta property="og:url" content="https://logoset.vercel.app/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F5F6F8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234F46E5'/%3E%3Cpath d='M7 24l7-11 4 6 3-4 4 9z' fill='%23fff'/%3E%3Ccircle cx='22' cy='10' r='3' fill='%23FBBF24'/%3E%3C/svg%3E">
+<script src="theme.js"></script>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"Logoset","url":"https://logoset.vercel.app/","applicationCategory":"DesignApplication","operatingSystem":"Any","inLanguage":["en","ru"],"isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Make avatars, a favicon, social media covers and color versions of your logo from one SVG file, right in the browser."},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Why do I need an SVG file?","acceptedAnswer":{"@type":"Answer","text":"SVG is the vector format logos are made in. It scales to any size without blur, and its colors can be changed. A PNG or JPG can't be recolored or enlarged cleanly."}},
+{"@type":"Question","name":"What size should a profile picture be?","acceptedAnswer":{"@type":"Answer","text":"1080×1080 pixels works for Instagram, Telegram, WhatsApp and most other apps. They crop avatars to a circle, so the logo has to stay inside it."}},
+{"@type":"Question","name":"What is the YouTube banner size?","acceptedAnswer":{"@type":"Answer","text":"2560×1440 pixels. Only the middle area of 1546×423 pixels is visible on every device, so the logo should sit inside it."}},
+{"@type":"Question","name":"Is Logoset free? Do you keep my logo?","acceptedAnswer":{"@type":"Answer","text":"It's free and open source. Everything happens in your browser and the logo isn't uploaded anywhere."}}
+]}]}
+</script>
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"></span><span>Logoset</span></a>
+    <div class="top-actions">
+      <a class="icon-btn plain" href="https://github.com/harakez/logoset" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4 1.5-4-2-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span></a>
+      <button type="button" class="icon-btn plain" id="lk-theme" aria-label="Dark theme" title="Dark theme"></button>
+      <a class="btn ghost lang" href="ru/" hreflang="ru" lang="ru">RU</a>
+    </div>
+  </header>
+
+  <main class="landing">
+    <section class="hero">
+      <span class="hero-tag">Free · No sign-up · Nothing is uploaded</span>
+      <h1>One logo file.<br>Every format you need.</h1>
+      <p class="lead">Upload your SVG logo and add the brand name. You'll get profile pictures, a favicon, social media covers and versions for light and dark backgrounds, all at the right sizes.</p>
+      <div class="dropzone" id="lk-drop" role="button" tabindex="0" aria-label="Choose an SVG logo">
+        <span class="dz-ic"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 16v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3"/></svg></span></span>
+        <b>Drop your SVG logo here</b>
+        <span class="or">or</span>
+        <span class="btn primary">Choose a file</span>
+        <small>Only .svg works. No file? Ask your designer: it's usually in the source files.</small>
+      </div>
+      <button type="button" class="linkish" id="lk-demo">See how it works with an example logo</button>
+    </section>
+
+    <section class="feats" aria-label="What you get">
+      <div class="feat"><b>Logo in four colors</b><p>Full color, a version for dark backgrounds, black and white. Horizontal, stacked, icon only and wordmark.</p></div>
+      <div class="feat"><b>Profile pictures</b><p>Square and round avatars for Instagram, Telegram, WhatsApp and VK. The logo stays inside the circle crop.</p></div>
+      <div class="feat"><b>Website icon</b><p>favicon.ico, an icon for phone home screens, and the HTML code to add them to your site.</p></div>
+      <div class="feat"><b>Social media covers</b><p>YouTube, LinkedIn, X and VK headers, stories and link previews, with the logo where it won't get cut off.</p></div>
+      <div class="feat"><b>Brand colors</b><p>HEX, RGB and CMYK codes to send to a print shop or a web developer.</p></div>
+      <div class="feat"><b>Private</b><p>Your file never leaves the browser. No accounts, nothing stored on a server.</p></div>
+    </section>
+
+    <section class="sizes">
+      <h2>Sizes Logoset exports</h2>
+      <div class="size-table" role="table" aria-label="Export sizes">
+        <div role="row"><span role="cell">Profile picture (Instagram, Telegram, WhatsApp)</span><b role="cell">1080 × 1080</b></div>
+        <div role="row"><span role="cell">YouTube banner, safe area 1546 × 423</span><b role="cell">2560 × 1440</b></div>
+        <div role="row"><span role="cell">Link preview (Open Graph)</span><b role="cell">1200 × 630</b></div>
+        <div role="row"><span role="cell">X (Twitter) header</span><b role="cell">1500 × 500</b></div>
+        <div role="row"><span role="cell">LinkedIn cover</span><b role="cell">1584 × 396</b></div>
+        <div role="row"><span role="cell">VK cover</span><b role="cell">1590 × 400</b></div>
+        <div role="row"><span role="cell">Story</span><b role="cell">1080 × 1920</b></div>
+        <div role="row"><span role="cell">Favicon and app icons</span><b role="cell">16, 32, 48, 180, 512</b></div>
+        <div role="row"><span role="cell">Logo files (PNG, JPG, SVG)</span><b role="cell">2000 px</b></div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2>Questions</h2>
+      <details><summary>Why do I need an SVG file?</summary><p>SVG is the vector format logos are made in. It scales to any size without blur, and its colors can be changed. A PNG or JPG can't be recolored or enlarged cleanly.</p></details>
+      <details><summary>I don't have an SVG. Where do I get one?</summary><p>Ask the designer who made your logo. It's usually among the files you received: look for .svg, .ai or .eps. Illustrator, Figma and Inkscape can all export SVG.</p></details>
+      <details><summary>Why can't I change the color of separate parts?</summary><p>Some logos are saved as one combined shape, so there is nothing to separate and the logo can only be recolored as a whole. Try the "By part" mode first. If that doesn't help, ask for an SVG with the parts kept as separate shapes.</p></details>
+      <details><summary>What size should a profile picture be?</summary><p>1080 × 1080 pixels works for Instagram, Telegram, WhatsApp and most other apps. They crop avatars to a circle, so the logo has to stay inside it. Logoset takes care of that.</p></details>
+      <details><summary>What is the YouTube banner size?</summary><p>2560 × 1440 pixels. Only the middle area of 1546 × 423 is visible on every device, so the logo should sit inside it.</p></details>
+      <details><summary>Is it free? Do you keep my logo?</summary><p>It's free and open source. Everything happens in your browser and the logo isn't uploaded anywhere.</p></details>
+    </section>
+  </main>
+
+  <footer class="foot"><span>Logoset is an open source project. Everything runs in your browser; files are never sent anywhere.</span><a href="https://github.com/harakez/logoset" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">Logoset needs JavaScript to work.</p></noscript>
+<script src="lib/opentype.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

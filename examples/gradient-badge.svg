@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C8DFF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <style>.ring{fill:none;stroke:#F2A541;stroke-width:14}.dot{fill:#F4F1EA}</style>
+  </defs>
+  <circle cx="200" cy="200" r="170" fill="url(#sky)"/>
+  <circle class="ring" cx="200" cy="200" r="130"/>
+  <path d="M120 250 L200 120 L280 250 Z" fill="#F4F1EA"/>
+  <circle class="dot" cx="200" cy="285" r="14"/>
+  <circle class="dot" cx="160" cy="285" r="10"/>
+  <circle class="dot" cx="240" cy="285" r="10"/>
+</svg>
