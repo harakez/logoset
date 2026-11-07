@@ -52,7 +52,7 @@ body{font-family:'Segoe UI',system-ui,-apple-system,Roboto,'Helvetica Neue',sans
 .topbar{display:flex;align-items:center;gap:16px;padding:10px 20px;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
 .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:16px;letter-spacing:-.01em}
-.brand-mark{width:28px;height:28px;border-radius:8px;background:conic-gradient(from 210deg,#F2A541,#E11D48,#6E66F2,#0EA5E9,#16A34A,#F2A541);box-shadow:inset 0 0 0 6px var(--surface)}
+.brand-mark{width:28px;height:28px;flex:none;background:url(icon.svg) center/contain no-repeat}
 .top-actions{margin-left:auto;display:flex;gap:4px;align-items:center}
 
 /* ---------- hero ---------- */
